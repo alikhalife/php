@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is a fake excuse notes generator" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Excuses Generator</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Find Your Perfect Excuses to Skip Classes
+        </h1>
+    </header>
+
+    <main>
+        <form action="excuses.php" method="post">
+
+            <div id="child">
+                <label>Your Child's name:
+                    <input type="text" name="name" />
+                </label>
+                <label>Your Child's class name:
+                    <input type="text" name="grade" />
+                </label>
+                <label>Parent name:
+                    <input type="text" name="parent" />
+                </label>
+            </div>
+
+            <div id="gender">
+                <label> Gender:
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="other"> Other
+                </label>
+            </div>
+
+            <div id="teacher">
+                <label>Teacher's last name (family name)
+                    <input type="text" name="teacher">
+                </label>
+            </div>
+            <div id="teacher_gender">
+                Gender of the teacher :
+                <label for="teacher_gender">
+                    <input type="radio" name="teacher_gender" value="miss" />
+                    Female
+                </label>
+                <label for="teacher_gender">
+                    <input type="radio" name="teacher_gender" value="mister" />
+                    Male
+                </label>
+            </div>
+            <div id="excuse">
+                <label> Reason of absence:
+                    <input type="radio" name="excuse" value="illness"> Illness
+                    <input type="radio" name="excuse" value="death_pet"> Death of pet
+                    <input type="radio" name="excuse" value="death_family"> Death of family member
+                    <input type="radio" name="excuse" value="activity"> Significant extra-curricular activity
+                    <!-- <input type="radio" name="reason" value="other"> Other -->
+
+                </label>
+            </div>
+            <div id="submit">
+                </br> <input type="submit" name="submit" value="Generate Excuse Letter">
+            </div>
+
+        </form>
+    </main>
+
+</body>
+
+</html>
