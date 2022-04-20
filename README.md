@@ -15,7 +15,7 @@
 
 <img src="https://img.shields.io/badge/GIT-yellow">
 <img src="https://img.shields.io/badge/GITHUB-yellow">
-<img src="https://img.shields.io/badge/CSS-Bootstrap-red">
+<img src="https://img.shields.io/badge/CSS-blue">
 <img src="https://img.shields.io/badge/HTML-brightgreen">
 
 </p>
