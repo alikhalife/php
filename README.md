@@ -1,8 +1,13 @@
 <h1 align="center">PHP Fundamentals</h1>
 
 <p align="center">
-<img src="https://img.shields.io/badge/HTML-brightgreen">
 
+<a href="https://php.net">
+        <img
+            alt="PHP"
+            src="https://www.php.net/images/logos/new-php-logo.svg"
+            width="150">
+    </a>
 
 </p>
 
@@ -11,17 +16,10 @@
 <img src="https://img.shields.io/badge/GIT-yellow">
 <img src="https://img.shields.io/badge/GITHUB-yellow">
 <img src="https://img.shields.io/badge/CSS-Bootstrap-red">
+<img src="https://img.shields.io/badge/HTML-brightgreen">
 
 </p>
 
-<div align="center">
-    <a href="https://php.net">
-        <img
-            alt="PHP"
-            src="https://www.php.net/images/logos/new-php-logo.svg"
-            width="150">
-    </a>
-</div>
 
 
 
